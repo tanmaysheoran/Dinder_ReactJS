@@ -1,0 +1,78 @@
+.Title {
+  color: orange;
+  font-size: 56px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.SubTitle {
+  color: rgb(255, 187, 0);
+  font-size: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.ImageTitle {
+  border-radius: 50%;
+  display: block;
+  height: 350px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.TotalButton {
+  height: 100px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.PrintParent {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(250, 243, 150);
+  border: 5px solid white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ListImage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  right: 10px;
+}
+
+.ListName {
+  color: black;
+  font-family: Arial;
+  font-size: 25px;
+  font-style: unset;
+}
+
+.ListInfo {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.Like {
+  vertical-align: top;
+  background-image: url("https://www.pngkit.com/png/full/148-1484731_like-button-png-youtube-clipart-freeuse-library-like.png");
+  background-size: 99px 99px;
+  height: 100px;
+  width: 100px;
+}
+
+.Dislike {
+  vertical-align: top;
+  background-image: url("https://www.pngkit.com/png/full/148-1484731_like-button-png-youtube-clipart-freeuse-library-like.png");
+  background-size: 99px 99px;
+  height: 100px;
+  width: 100px;
+  transform: rotate(180deg);
+}
